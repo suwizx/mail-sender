@@ -11,6 +11,7 @@ services:
       - PORT=3000
       - EMAIL_USER=${EMAIL_USER}
       - EMAIL_PASS=${EMAIL_PASS}
+      - BUN_ENV=production
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
